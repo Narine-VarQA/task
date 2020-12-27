@@ -1,0 +1,71 @@
+.box {
+    max-width: 1200px;
+    width: 100%;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.header {
+    max-width: 800px;
+    width: 100%;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    background-color: dimgrey;
+    margin: 0 auto;
+}
+
+.header-title {
+    font-family: "Courier New", Courier, monospace;
+    font-size: 32px;
+    font-weight: 600;
+    color: crimson;
+}
+
+.aside {
+    max-width: 401px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    outline: solid 1px skyblue;
+}
+
+.aside-title {
+    font-weight: 600px;
+    font-size: 25px;
+    text-align: center;
+    padding-top: 10px;
+    font-family: "Courier New", Courier, monospace;
+    color: aqua;
+}
+
+.aside-title::after {
+    content: "";
+    background: darkgrey;
+    width: 403px;
+    height: 2px;
+    display: block;
+}
+
+.aside-list {
+    color: deeppink;
+    font-size: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.aside-items {
+    margin-top: 10px;
+}
+
+.aside-link {
+    text-decoration: none;
+    font-family: "Courier New", Courier, monospace;
+    font-size: 16px;
+    color: darkred;
+}
